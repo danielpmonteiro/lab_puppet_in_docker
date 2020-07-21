@@ -1,4 +1,4 @@
-# Criando um LAB Docker para estuadar Puppet
+# Criando um LAB Docker para estudar Puppet
 
 **CONFIGURANDO UM AMBIENTE PUPPETSERVER E PUPPET-AGENT USANDO DOCKER**
 > Obs: Necessário ter o docker-ce instalado na máquina que for montar o lab
@@ -224,7 +224,7 @@ node01:~$ /opt/puppetlabs/bin/puppet agent --test
         }
 ```
     
-- Criar o arquivo de configuração de site no nginx conforme path abaixo:
+- Criar o arquivo de configuração de site no nginx conforme path e conteúdo abaixo:
 
 ```shell
 /etc/puppetlabs/code/environments/production/modules/node01/files/default
